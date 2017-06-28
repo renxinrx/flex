@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>flex的固定底栏布局</title>
+	<style>
+		.container{display: flex;flex-direction: column;min-height:350px;text-align: center}
+		.header,.footer{height:30px;line-height:30px;background-color: #666;}
+		.contain{flex:1;}
+	</style>
+</head>
+<body>
+<p>底部固定布局</p>
+	<div class="container">
+		<div class="header">我是头部</div>
+		<div class="contain">我是中间内容</div>
+		<div class="footer">我是底部--固定的底部</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+flex:弹性盒子布局 ie10+可用，谷歌需用-webkit- 其他浏览器再查
+任何元素都可以设为flex（inline-flex）
+
+设为display:flex的元素称之为容器  里面包含的元素称之为项目
+
